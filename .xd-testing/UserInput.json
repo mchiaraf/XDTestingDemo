@@ -24,6 +24,7 @@
           "expectedResultsFileName": "musical-performance/musical-performance-fragment/expectedResults/CQ-ExpectedResults.json",
           "id": "CQ001"
         },
+        
         {
           "type": "INFERENCE_VERIFICATION",
           "content": "",
