@@ -23,6 +23,17 @@
           "expectedResults": "",
           "expectedResultsFileName": "musical-performance/musical-performance-fragment/expectedResults/CQ-ExpectedResults.json",
           "id": "CQ001"
+        },
+        {
+          "type": "INFERENCE_VERIFICATION",
+          "content": "",
+          "reasoner": "hermiT 1.4.3.456",
+          "status": "running",
+          "query": "PREFIX mp: <https://w3id.org/polifonia/ontology/musical-performance/> PREFIX td: < https://raw.githubusercontent.com/polifonia-project/musical-performance-ontology/main/test/inference/toy-dataset/ > PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> ASK { td:SystemOfADown-FirenzeRocks2017 a mp:MusicalPerformance . }",
+          "data": "",
+          "dataFileName": "musical-performance/musical-performance-fragment/datasets/DatasetIV.ttl",
+          "expectedResults": "",
+          "id": "IV001"
         }
       ]
     }
